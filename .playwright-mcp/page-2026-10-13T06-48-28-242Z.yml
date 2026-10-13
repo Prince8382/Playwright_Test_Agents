@@ -1,0 +1,110 @@
+- generic [ref=f6e3]:
+  - navigation [ref=f6e4]:
+    - generic [ref=f6e5]:
+      - link "QA Practice" [ref=f6e6] [cursor=pointer]:
+        - /url: /
+        - text: QA
+        - generic [ref=f6e7]: Practice
+      - generic [ref=f6e9]:
+        - link "Practice Sites" [ref=f6e10] [cursor=pointer]:
+          - /url: /practice-page-selection
+        - link "Interview Prep" [ref=f6e11] [cursor=pointer]:
+          - /url: /interview
+        - link "About" [ref=f6e12] [cursor=pointer]:
+          - /url: /AboutPage
+        - link "Contact" [ref=f6e13] [cursor=pointer]:
+          - /url: /contact
+  - generic [ref=f6e14]:
+    - heading "Practice Sites" [level=1] [ref=f6e15]
+    - paragraph [ref=f6e16]: Realistic, purpose-built pages to automate with Selenium, Cypress, or Playwright. Each one is free, has stable locators on every element, and comes with a step-by-step automation guide.
+  - generic [ref=f6e19]:
+    - generic [ref=f6e22]:
+      - generic [ref=f6e23]:
+        - generic [ref=f6e24]: 🔐
+        - generic [ref=f6e25]: Beginner
+      - generic [ref=f6e26]: Login Automation
+      - paragraph [ref=f6e27]: "Automate a real login form: enter credentials, submit, and assert the success and error states."
+      - generic [ref=f6e28]:
+        - generic [ref=f6e29]: You'll practice
+        - text: Text & password inputs, remember-me checkbox, form submission, success/error assertions.
+      - button "Start practising →" [ref=f6e30] [cursor=pointer]
+    - generic [ref=f6e33]:
+      - generic [ref=f6e34]:
+        - generic [ref=f6e35]: 📋
+        - generic [ref=f6e36]: Beginner
+      - generic [ref=f6e37]: Web Form Automation
+      - paragraph [ref=f6e38]: A multi-field registration form covering the full toolbox of common inputs and validation.
+      - generic [ref=f6e39]:
+        - generic [ref=f6e40]: You'll practice
+        - text: Dropdowns, text fields, a date picker, radio buttons, inline validation errors, and submit.
+      - button "Start practising →" [ref=f6e41] [cursor=pointer]
+    - generic [ref=f6e44]:
+      - generic [ref=f6e45]:
+        - generic [ref=f6e46]: 🛒
+        - generic [ref=f6e47]: Intermediate
+      - generic [ref=f6e48]: E-commerce Automation
+      - paragraph [ref=f6e49]: A realistic storefront — browse and search products, manage a cart, and place an order.
+      - generic [ref=f6e50]:
+        - generic [ref=f6e51]: You'll practice
+        - text: Product search, add/remove from cart, quantities, checkout, address and payment forms.
+      - button "Start practising →" [ref=f6e52] [cursor=pointer]
+    - generic [ref=f6e55]:
+      - generic [ref=f6e56]:
+        - generic [ref=f6e57]: ✈️
+        - generic [ref=f6e58]: Intermediate
+      - generic [ref=f6e59]: Flight Booking Automation
+      - paragraph [ref=f6e60]: "A multi-step booking flow: pick cities and dates, search, choose a flight, and confirm."
+      - generic [ref=f6e61]:
+        - generic [ref=f6e62]: You'll practice
+        - text: Dependent dropdowns, date inputs, conditional fields, a dynamic results list, and a modal payment step.
+      - button "Start practising →" [ref=f6e63] [cursor=pointer]
+    - generic [ref=f6e66]:
+      - generic [ref=f6e67]:
+        - generic [ref=f6e68]: 🎛️
+        - generic [ref=f6e69]: Beginner
+      - generic [ref=f6e70]: UI Element Automation
+      - paragraph [ref=f6e71]: A full catalogue of interactive UI components to locate and automate in one place.
+      - generic [ref=f6e72]:
+        - generic [ref=f6e73]: You'll practice
+        - text: Buttons, checkboxes, radios, dropdowns, sliders, tables, modals, file upload, and alerts.
+      - button "Start practising →" [ref=f6e74] [cursor=pointer]
+    - generic [ref=f6e77]:
+      - generic [ref=f6e78]:
+        - generic [ref=f6e79]: 🧭
+        - generic [ref=f6e80]: Intermediate
+      - generic [ref=f6e81]: XPath Practice for Selenium
+      - paragraph [ref=f6e82]: "Interactive challenges: write XPath against live DOM snippets with real-time validation, highlighting, hints, and multiple solutions."
+      - generic [ref=f6e83]:
+        - generic [ref=f6e84]: You'll practice
+        - text: Attributes, text, position, axes, sibling relationships, dynamic ids, and complex locators — Beginner to Advanced.
+      - button "Start practising →" [ref=f6e85] [cursor=pointer]
+    - generic [ref=f6e88]:
+      - generic [ref=f6e89]:
+        - generic [ref=f6e90]: 🔑
+        - generic [ref=f6e91]: Beginner
+      - generic [ref=f6e92]: Forgot Password
+      - paragraph [ref=f6e93]: Automate a password-recovery flow from request through reset, end to end.
+      - generic [ref=f6e94]:
+        - generic [ref=f6e95]: You'll practice
+        - text: Email input, secret-code entry, new-password fields, a multi-step flow, and validation.
+      - button "Start practising →" [ref=f6e96] [cursor=pointer]
+    - generic [ref=f6e99]:
+      - generic [ref=f6e100]:
+        - generic [ref=f6e101]: 📝
+        - generic [ref=f6e102]: Beginner
+      - generic [ref=f6e103]: Registration Form
+      - paragraph [ref=f6e104]: Automate a sign-up form with field validation and a success confirmation.
+      - generic [ref=f6e105]:
+        - generic [ref=f6e106]: You'll practice
+        - text: Text inputs, email/password validation, form submission, and the success state.
+      - button "Start practising →" [ref=f6e107] [cursor=pointer]
+    - generic [ref=f6e110]:
+      - generic [ref=f6e111]:
+        - generic [ref=f6e112]: 🔌
+        - generic [ref=f6e113]: Intermediate
+      - generic [ref=f6e114]: REST API Playground
+      - paragraph [ref=f6e115]: A deterministic practice REST API — log in for a token, then automate products, users, and orders with Playwright, Postman, or REST Assured.
+      - generic [ref=f6e116]:
+        - generic [ref=f6e117]: You'll practice
+        - text: Auth tokens, GET/POST requests, JSON bodies, and 400 / 401 / 404 / 429 error handling.
+      - button "Start practising →" [ref=f6e118] [cursor=pointer]

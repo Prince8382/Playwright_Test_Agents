@@ -1,0 +1,191 @@
+- generic [ref=f3e2]:
+  - navigation [ref=f3e119]:
+    - generic [ref=f3e120]:
+      - link "QA Practice" [ref=f3e121] [cursor=pointer]:
+        - /url: /
+        - text: QA
+        - generic [ref=f3e122]: Practice
+      - generic [ref=f3e124]:
+        - link "Practice Sites" [ref=f3e125] [cursor=pointer]:
+          - /url: /practice-page-selection
+        - link "Interview Prep" [ref=f3e126] [cursor=pointer]:
+          - /url: /interview
+        - link "About" [ref=f3e127] [cursor=pointer]:
+          - /url: /AboutPage
+        - link "Contact" [ref=f3e128] [cursor=pointer]:
+          - /url: /contact
+  - generic [ref=f3e129]:
+    - heading "E-commerce Automation Practice" [level=1] [ref=f3e130]
+    - paragraph [ref=f3e131]: Automate a realistic storefront — search products, manage the cart, enter an address, and place an order — with Selenium, Cypress, or Playwright.
+  - generic [ref=f3e132]:
+    - navigation [ref=f3e133]:
+      - generic [ref=f3e134]:
+        - link "🛍️ QA Practice Store" [ref=f3e135] [cursor=pointer]:
+          - /url: /
+        - searchbox "Search" [ref=f3e139]
+        - button [ref=f3e141] [cursor=pointer]
+    - generic [ref=f3e144]:
+      - generic [ref=f3e145]:
+        - button "All" [ref=f3e146] [cursor=pointer]
+        - button "Electronics" [ref=f3e147] [cursor=pointer]
+        - button "Fashion" [ref=f3e148] [cursor=pointer]
+        - button "Beauty" [ref=f3e149] [cursor=pointer]
+        - button "Beverages" [ref=f3e150] [cursor=pointer]
+      - generic [ref=f3e151]:
+        - generic [ref=f3e152]: 20 products
+        - generic [ref=f3e153]:
+          - generic [ref=f3e154]: Sort by
+          - combobox "Sort by" [ref=f3e155]:
+            - option "Featured"
+            - 'option "Price: Low to High" [selected]'
+            - 'option "Price: High to Low"'
+            - option "Avg. Customer Rating"
+      - generic [ref=f3e156]:
+        - generic [ref=f3e573]:
+          - img "Premium Earphone" [ref=f3e574] [cursor=pointer]
+          - generic [ref=f3e575]:
+            - generic [ref=f3e576] [cursor=pointer]: Premium Earphone
+            - generic [ref=f3e578]:
+              - generic [ref=f3e579]: ★★★★☆
+              - generic [ref=f3e580]: 4.3 (764)
+            - generic [ref=f3e581]: $75
+            - generic [ref=f3e582]:
+              - generic [ref=f3e583]:
+                - generic [ref=f3e584]: "Qty:"
+                - spinbutton "Qty:" [ref=f3e585]: "1"
+              - button "Add to Cart" [ref=f3e586] [cursor=pointer]
+        - generic [ref=f3e588]:
+          - img "Keyboard RGB" [ref=f3e589] [cursor=pointer]
+          - generic [ref=f3e590]:
+            - generic [ref=f3e591] [cursor=pointer]: Keyboard RGB
+            - generic [ref=f3e593]:
+              - generic [ref=f3e594]: ★★★★½
+              - generic [ref=f3e595]: 4.5 (973)
+            - generic [ref=f3e596]: $80
+            - generic [ref=f3e597]:
+              - generic [ref=f3e598]:
+                - generic [ref=f3e599]: "Qty:"
+                - spinbutton "Qty:" [ref=f3e600]: "1"
+              - button "Add to Cart" [ref=f3e601] [cursor=pointer]
+        - generic [ref=f3e603]:
+          - img "Gold Zipper Bag" [ref=f3e604] [cursor=pointer]
+          - generic [ref=f3e605]:
+            - generic [ref=f3e606] [cursor=pointer]: Gold Zipper Bag
+            - generic [ref=f3e608]:
+              - generic [ref=f3e609]: ★★★★☆
+              - generic [ref=f3e610]: 4.2 (318)
+            - generic [ref=f3e611]: $90
+            - generic [ref=f3e612]:
+              - generic [ref=f3e613]:
+                - generic [ref=f3e614]: "Qty:"
+                - spinbutton "Qty:" [ref=f3e615]: "1"
+              - button "Add to Cart" [ref=f3e616] [cursor=pointer]
+        - generic [ref=f3e618]:
+          - img "Wireless Earphone" [ref=f3e619] [cursor=pointer]
+          - generic [ref=f3e620]:
+            - generic [ref=f3e621] [cursor=pointer]: Wireless Earphone
+            - generic [ref=f3e623]:
+              - generic [ref=f3e624]: ★★★★☆
+              - generic [ref=f3e625]: 4.4 (1,211)
+            - generic [ref=f3e626]: $110
+            - generic [ref=f3e627]:
+              - generic [ref=f3e628]:
+                - generic [ref=f3e629]: "Qty:"
+                - spinbutton "Qty:" [ref=f3e630]: "1"
+              - button "Add to Cart" [ref=f3e631] [cursor=pointer]
+        - generic [ref=f3e633]:
+          - img "Wireless Earbuds" [ref=f3e634] [cursor=pointer]
+          - generic [ref=f3e635]:
+            - generic [ref=f3e636] [cursor=pointer]: Wireless Earbuds
+            - generic [ref=f3e638]:
+              - generic [ref=f3e639]: ★★★★½
+              - generic [ref=f3e640]: 4.6 (1,876)
+            - generic [ref=f3e641]: $130
+            - generic [ref=f3e642]:
+              - generic [ref=f3e643]:
+                - generic [ref=f3e644]: "Qty:"
+                - spinbutton "Qty:" [ref=f3e645]: "1"
+              - button "Add to Cart" [ref=f3e646] [cursor=pointer]
+        - generic [ref=f3e648]:
+          - img "Headphones Noise Cancelling" [ref=f3e649] [cursor=pointer]
+          - generic [ref=f3e650]:
+            - generic [ref=f3e651] [cursor=pointer]: Headphones Noise Cancelling
+            - generic [ref=f3e653]:
+              - generic [ref=f3e654]: ★★★★½
+              - generic [ref=f3e655]: 4.7 (2,109)
+            - generic [ref=f3e656]: $150
+            - generic [ref=f3e657]:
+              - generic [ref=f3e658]:
+                - generic [ref=f3e659]: "Qty:"
+                - spinbutton "Qty:" [ref=f3e660]: "1"
+              - button "Add to Cart" [ref=f3e661] [cursor=pointer]
+        - generic [ref=f3e663]:
+          - img "External SSD 1TB" [ref=f3e664] [cursor=pointer]
+          - generic [ref=f3e665]:
+            - generic [ref=f3e666] [cursor=pointer]: External SSD 1TB
+            - generic [ref=f3e668]:
+              - generic [ref=f3e669]: ★★★★½
+              - generic [ref=f3e670]: 4.8 (1,550)
+            - generic [ref=f3e671]: $180
+            - generic [ref=f3e672]:
+              - generic [ref=f3e673]:
+                - generic [ref=f3e674]: "Qty:"
+                - spinbutton "Qty:" [ref=f3e675]: "1"
+              - button "Add to Cart" [ref=f3e676] [cursor=pointer]
+        - generic [ref=f3e678]:
+          - img "QPhone" [ref=f3e679] [cursor=pointer]
+          - generic [ref=f3e680]:
+            - generic [ref=f3e681] [cursor=pointer]: QPhone
+            - generic [ref=f3e683]:
+              - generic [ref=f3e684]: ★★★★☆
+              - generic [ref=f3e685]: 4.0 (233)
+            - generic [ref=f3e686]: $200
+            - generic [ref=f3e687]:
+              - generic [ref=f3e688]:
+                - generic [ref=f3e689]: "Qty:"
+                - spinbutton "Qty:" [ref=f3e690]: "1"
+              - button "Add to Cart" [ref=f3e691] [cursor=pointer]
+      - navigation "Product pages" [ref=f3e486]:
+        - list [ref=f3e487]:
+          - listitem [ref=f3e488]:
+            - button "Previous" [ref=f3e692] [cursor=pointer]
+          - listitem [ref=f3e489]:
+            - button "1" [ref=f3e490] [cursor=pointer]
+          - listitem [ref=f3e491]:
+            - button "2" [active] [ref=f3e492] [cursor=pointer]
+          - listitem [ref=f3e493]:
+            - button "3" [ref=f3e494] [cursor=pointer]
+          - listitem [ref=f3e495]:
+            - button "Next" [ref=f3e496] [cursor=pointer]
+      - link "Back To Home Page ➡️" [ref=f3e289] [cursor=pointer]:
+        - /url: /
+      - generic [ref=f3e290]:
+        - generic [ref=f3e291]:
+          - heading "How to Automate This E-commerce Page" [level=2] [ref=f3e292]
+          - paragraph [ref=f3e293]: A full shopping journey — search a product, set a quantity, add to cart, review the cart, enter a shipping address, pay, and see the order confirmation. It is ideal for practising dynamic, per-product locators, an off-canvas cart, and a multi-step checkout.
+        - button "📝 Working Automation Example" [ref=f3e295] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f3e297]: ▼
+        - button "🎯 Locator Cheat Sheet" [ref=f3e299] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f3e301]: ▼
+        - button "✅ Test Cases & Expected Behaviors" [ref=f3e303] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f3e305]: ▼
+  - contentinfo [ref=f3e306]:
+    - generic [ref=f3e307]:
+      - navigation "Legal and contact" [ref=f3e308]:
+        - list [ref=f3e309]:
+          - listitem [ref=f3e310]:
+            - link "Home" [ref=f3e311] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=f3e312]:
+            - link "About" [ref=f3e313] [cursor=pointer]:
+              - /url: /AboutPage
+          - listitem [ref=f3e314]:
+            - link "Contact" [ref=f3e315] [cursor=pointer]:
+              - /url: /contact
+          - listitem [ref=f3e316]:
+            - link "Privacy Policy" [ref=f3e317] [cursor=pointer]:
+              - /url: /privacy-policy
+          - listitem [ref=f3e318]:
+            - link "Terms of Use" [ref=f3e319] [cursor=pointer]:
+              - /url: /terms
+      - paragraph [ref=f3e320]: © 2026 QA Practice · A free learning platform for QA and automation engineers 🚀

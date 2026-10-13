@@ -1,0 +1,112 @@
+- generic [ref=f3e396]:
+  - navigation [ref=f3e397]:
+    - generic [ref=f3e398]:
+      - link "QA Practice" [ref=f3e399] [cursor=pointer]:
+        - /url: /
+        - text: QA
+        - generic [ref=f3e400]: Practice
+      - generic [ref=f3e402]:
+        - link "Practice Sites" [ref=f3e403] [cursor=pointer]:
+          - /url: /practice-page-selection
+        - link "Interview Prep" [ref=f3e404] [cursor=pointer]:
+          - /url: /interview
+        - link "About" [ref=f3e405] [cursor=pointer]:
+          - /url: /AboutPage
+        - link "Contact" [ref=f3e406] [cursor=pointer]:
+          - /url: /contact
+  - generic [ref=f3e409]:
+    - generic [ref=f3e410]:
+      - heading "The Ultimate Automation Playground" [level=1] [ref=f3e411]
+      - paragraph [ref=f3e412]: Practice UI test automation on realistic, purpose-built pages — then prepare for QA interviews with a deep question library. Free, hands-on, and built for learners.
+      - generic [ref=f3e413]:
+        - button "Start Practicing" [ref=f3e414] [cursor=pointer]
+        - button "Browse Interview Questions" [ref=f3e415] [cursor=pointer]
+      - generic [ref=f3e416]:
+        - generic [ref=f3e417]:
+          - strong [ref=f3e418]: "6"
+          - text: practice sites
+        - generic [ref=f3e419]: •
+        - generic [ref=f3e420]:
+          - strong [ref=f3e421]: 270+
+          - text: interview questions
+        - generic [ref=f3e422]: •
+        - generic [ref=f3e423]: Selenium · Cypress · Playwright
+    - img "Automating the QA Practice e-commerce practice store — product grid, search, and cart" [ref=f3e431]
+  - generic [ref=f3e433]:
+    - link "🧪 Practice Sites Automate realistic, purpose-built pages instead of fragile third-party sites — from login forms to a full e-commerce checkout and a multi-step flight booking flow. Login & forms E-commerce checkout Flight booking UI elements XPath Explore practice sites →" [ref=f3e435] [cursor=pointer]:
+      - /url: /practice-page-selection
+      - generic [ref=f3e436]:
+        - generic [ref=f3e437]: 🧪
+        - heading "Practice Sites" [level=2] [ref=f3e438]
+      - paragraph [ref=f3e439]: Automate realistic, purpose-built pages instead of fragile third-party sites — from login forms to a full e-commerce checkout and a multi-step flight booking flow.
+      - generic [ref=f3e440]:
+        - generic [ref=f3e441]: Login & forms
+        - generic [ref=f3e442]: E-commerce checkout
+        - generic [ref=f3e443]: Flight booking
+        - generic [ref=f3e444]: UI elements
+        - generic [ref=f3e445]: XPath
+      - generic [ref=f3e446]: Explore practice sites →
+    - link "💬 Interview Prep A searchable library of QA interview questions with clear explanations, real-world examples, and structured answers — filter by topic, difficulty, and track your progress. Java Java Coding Selenium Playwright API SQL CI/CD Agile Browse the question library →" [ref=f3e448] [cursor=pointer]:
+      - /url: /interview
+      - generic [ref=f3e449]:
+        - generic [ref=f3e450]: 💬
+        - heading "Interview Prep" [level=2] [ref=f3e451]
+      - paragraph [ref=f3e452]: A searchable library of QA interview questions with clear explanations, real-world examples, and structured answers — filter by topic, difficulty, and track your progress.
+      - generic [ref=f3e453]:
+        - generic [ref=f3e454]: Java
+        - generic [ref=f3e455]: Java Coding
+        - generic [ref=f3e456]: Selenium
+        - generic [ref=f3e457]: Playwright
+        - generic [ref=f3e458]: API
+        - generic [ref=f3e459]: SQL
+        - generic [ref=f3e460]: CI/CD
+        - generic [ref=f3e461]: Agile
+      - generic [ref=f3e462]: Browse the question library →
+  - generic [ref=f3e464]:
+    - heading "Why practice on QA Practice" [level=2] [ref=f3e465]
+    - generic [ref=f3e466]:
+      - generic [ref=f3e468]:
+        - generic [ref=f3e469]: 🎯
+        - heading "Stable locators" [level=3] [ref=f3e470]
+        - paragraph [ref=f3e471]: Every interactive element ships an id and data-testid, so your scripts stay reliable instead of breaking on brittle selectors.
+      - generic [ref=f3e473]:
+        - generic [ref=f3e474]: 📘
+        - heading "Real tutorials" [level=3] [ref=f3e475]
+        - paragraph [ref=f3e476]: Each practice page includes a "How to automate this" walkthrough with working Playwright and Selenium code and a locator cheat sheet.
+      - generic [ref=f3e478]:
+        - generic [ref=f3e479]: 🔒
+        - heading "Free & private" [level=3] [ref=f3e480]
+        - paragraph [ref=f3e481]: No sign-up, no paywall, and nothing you type is ever stored — just an open sandbox you can automate however you like.
+  - generic [ref=f3e484]:
+    - heading "About QA Practice" [level=2] [ref=f3e485]
+    - paragraph [ref=f3e486]:
+      - text: QA Practice is a free, hands-on platform for QA and automation engineers. Build and sharpen your skills on realistic web apps with stable locators you can automate using
+      - strong [ref=f3e487]: Selenium
+      - text: ","
+      - strong [ref=f3e488]: Cypress
+      - text: ", or"
+      - strong [ref=f3e489]: Playwright
+      - text: ", then get interview-ready with a deep, searchable"
+      - link "question library" [ref=f3e490] [cursor=pointer]:
+        - /url: /interview
+      - text: covering Java, Selenium, Playwright, API, SQL, CI/CD and more. No setup, no sign-up — built by learners, for learners.
+  - contentinfo [ref=f3e491]:
+    - generic [ref=f3e492]:
+      - navigation "Legal and contact" [ref=f3e493]:
+        - list [ref=f3e494]:
+          - listitem [ref=f3e495]:
+            - link "Home" [ref=f3e496] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=f3e497]:
+            - link "About" [ref=f3e498] [cursor=pointer]:
+              - /url: /AboutPage
+          - listitem [ref=f3e499]:
+            - link "Contact" [ref=f3e500] [cursor=pointer]:
+              - /url: /contact
+          - listitem [ref=f3e501]:
+            - link "Privacy Policy" [ref=f3e502] [cursor=pointer]:
+              - /url: /privacy-policy
+          - listitem [ref=f3e503]:
+            - link "Terms of Use" [ref=f3e504] [cursor=pointer]:
+              - /url: /terms
+      - paragraph [ref=f3e505]: © 2026 QA Practice · A free learning platform for QA and automation engineers 🚀

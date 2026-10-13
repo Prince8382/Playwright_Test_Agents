@@ -1,0 +1,76 @@
+- generic [ref=f3e2]:
+  - navigation [ref=f3e119]:
+    - generic [ref=f3e120]:
+      - link "QA Practice" [ref=f3e121] [cursor=pointer]:
+        - /url: /
+        - text: QA
+        - generic [ref=f3e122]: Practice
+      - generic [ref=f3e124]:
+        - link "Practice Sites" [ref=f3e125] [cursor=pointer]:
+          - /url: /practice-page-selection
+        - link "Interview Prep" [ref=f3e126] [cursor=pointer]:
+          - /url: /interview
+        - link "About" [ref=f3e127] [cursor=pointer]:
+          - /url: /AboutPage
+        - link "Contact" [ref=f3e128] [cursor=pointer]:
+          - /url: /contact
+  - generic [ref=f3e129]:
+    - heading "E-commerce Automation Practice" [level=1] [ref=f3e130]
+    - paragraph [ref=f3e131]: Automate a realistic storefront — search products, manage the cart, enter an address, and place an order — with Selenium, Cypress, or Playwright.
+  - generic [ref=f3e132]:
+    - navigation [ref=f3e133]:
+      - generic [ref=f3e134]:
+        - link "🛍️ QA Practice Store" [ref=f3e135] [cursor=pointer]:
+          - /url: /
+        - searchbox "Search" [ref=f3e139]
+        - button [ref=f3e141] [cursor=pointer]
+    - generic [ref=f3e144]:
+      - generic [ref=f3e321]:
+        - button "← Back to products" [ref=f3e322] [cursor=pointer]
+        - generic [ref=f3e323]:
+          - img "Laptop Pro" [ref=f3e326]
+          - generic [ref=f3e327]:
+            - generic [ref=f3e328]: Electronics
+            - heading "Laptop Pro" [level=2] [ref=f3e329]
+            - generic [ref=f3e330]: by ProTech
+            - generic [ref=f3e332]:
+              - generic [ref=f3e333]: ★★★★½
+              - generic [ref=f3e334]: 4.6 (1,284)
+            - generic [ref=f3e335]: $1200
+            - paragraph [ref=f3e336]: A powerful 16-inch laptop with a fast processor, 16GB RAM, and an all-day battery — built for developers and creators.
+            - generic [ref=f3e337]:
+              - generic [ref=f3e338]: "Qty:"
+              - spinbutton "Qty:" [ref=f3e339]: "1"
+              - button "Add to Cart" [ref=f3e340] [cursor=pointer]
+      - link "Back To Home Page ➡️" [ref=f3e289] [cursor=pointer]:
+        - /url: /
+      - generic [ref=f3e290]:
+        - generic [ref=f3e291]:
+          - heading "How to Automate This E-commerce Page" [level=2] [ref=f3e292]
+          - paragraph [ref=f3e293]: A full shopping journey — search a product, set a quantity, add to cart, review the cart, enter a shipping address, pay, and see the order confirmation. It is ideal for practising dynamic, per-product locators, an off-canvas cart, and a multi-step checkout.
+        - button "📝 Working Automation Example" [ref=f3e295] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f3e297]: ▼
+        - button "🎯 Locator Cheat Sheet" [ref=f3e299] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f3e301]: ▼
+        - button "✅ Test Cases & Expected Behaviors" [ref=f3e303] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f3e305]: ▼
+  - contentinfo [ref=f3e306]:
+    - generic [ref=f3e307]:
+      - navigation "Legal and contact" [ref=f3e308]:
+        - list [ref=f3e309]:
+          - listitem [ref=f3e310]:
+            - link "Home" [ref=f3e311] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=f3e312]:
+            - link "About" [ref=f3e313] [cursor=pointer]:
+              - /url: /AboutPage
+          - listitem [ref=f3e314]:
+            - link "Contact" [ref=f3e315] [cursor=pointer]:
+              - /url: /contact
+          - listitem [ref=f3e316]:
+            - link "Privacy Policy" [ref=f3e317] [cursor=pointer]:
+              - /url: /privacy-policy
+          - listitem [ref=f3e318]:
+            - link "Terms of Use" [ref=f3e319] [cursor=pointer]:
+              - /url: /terms
+      - paragraph [ref=f3e320]: © 2026 QA Practice · A free learning platform for QA and automation engineers 🚀

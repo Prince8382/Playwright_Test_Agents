@@ -1,0 +1,203 @@
+- generic [ref=f3e1]:
+  - generic [ref=f3e2]:
+    - navigation [ref=f3e119]:
+      - generic [ref=f3e120]:
+        - link "QA Practice" [ref=f3e121] [cursor=pointer]:
+          - /url: /
+          - text: QA
+          - generic [ref=f3e122]: Practice
+        - generic [ref=f3e124]:
+          - link "Practice Sites" [ref=f3e125] [cursor=pointer]:
+            - /url: /practice-page-selection
+          - link "Interview Prep" [ref=f3e126] [cursor=pointer]:
+            - /url: /interview
+          - link "About" [ref=f3e127] [cursor=pointer]:
+            - /url: /AboutPage
+          - link "Contact" [ref=f3e128] [cursor=pointer]:
+            - /url: /contact
+    - generic [ref=f3e129]:
+      - heading "E-commerce Automation Practice" [level=1] [ref=f3e130]
+      - paragraph [ref=f3e131]: Automate a realistic storefront — search products, manage the cart, enter an address, and place an order — with Selenium, Cypress, or Playwright.
+    - generic [ref=f3e132]:
+      - navigation [ref=f3e133]:
+        - generic [ref=f3e134]:
+          - link "🛍️ QA Practice Store" [ref=f3e135] [cursor=pointer]:
+            - /url: /
+          - searchbox "Search" [ref=f3e139]
+          - button [ref=f3e476] [cursor=pointer]
+      - generic [ref=f3e144]:
+        - generic [ref=f3e441]:
+          - button "← Back to products" [ref=f3e442] [cursor=pointer]
+          - generic [ref=f3e443]:
+            - img "Laptop Pro" [ref=f3e446]
+            - generic [ref=f3e447]:
+              - generic [ref=f3e448]: Electronics
+              - heading "Laptop Pro" [level=2] [ref=f3e449]
+              - generic [ref=f3e450]: by ProTech
+              - generic [ref=f3e452]:
+                - generic [ref=f3e453]: ★★★★½
+                - generic [ref=f3e454]: 4.6 (1,284)
+              - generic [ref=f3e455]: $1200
+              - paragraph [ref=f3e456]: A powerful 16-inch laptop with a fast processor, 16GB RAM, and an all-day battery — built for developers and creators.
+              - generic [ref=f3e457]:
+                - generic [ref=f3e458]: "Qty:"
+                - spinbutton "Qty:" [ref=f3e459]: "1"
+                - button "Add to Cart" [ref=f3e460] [cursor=pointer]
+        - link "Back To Home Page ➡️" [ref=f3e289] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f3e290]:
+          - generic [ref=f3e291]:
+            - heading "How to Automate This E-commerce Page" [level=2] [ref=f3e292]
+            - paragraph [ref=f3e293]: A full shopping journey — search a product, set a quantity, add to cart, review the cart, enter a shipping address, pay, and see the order confirmation. It is ideal for practising dynamic, per-product locators, an off-canvas cart, and a multi-step checkout.
+          - button "📝 Working Automation Example" [ref=f3e295] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f3e297]: ▼
+          - button "🎯 Locator Cheat Sheet" [ref=f3e299] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f3e301]: ▼
+          - generic [ref=f3e302]:
+            - button "✅ Test Cases & Expected Behaviors" [expanded] [ref=f3e303] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f3e305]: ▼
+            - generic [ref=f3e322]:
+              - generic [ref=f3e323]:
+                - paragraph [ref=f3e325]: Use these as a checklist to build your automation suite. Download them as a Markdown file to keep alongside your test project.
+                - button "⬇️ Download (.md)" [ref=f3e327] [cursor=pointer]
+              - table [ref=f3e329]:
+                - rowgroup [ref=f3e330]:
+                  - row [ref=f3e331]:
+                    - columnheader "ID" [ref=f3e332]
+                    - columnheader "Scenario" [ref=f3e333]
+                    - columnheader "Steps" [ref=f3e334]
+                    - columnheader "Expected Result" [ref=f3e335]
+                - rowgroup [ref=f3e336]:
+                  - row [ref=f3e337]:
+                    - cell [ref=f3e338]:
+                      - strong [ref=f3e339]: TC01
+                    - cell "Add a product to the cart" [ref=f3e340]
+                    - cell [ref=f3e341]:
+                      - list [ref=f3e342]:
+                        - listitem [ref=f3e343]: Set a quantity for a product
+                        - listitem [ref=f3e344]: Click Add to Cart
+                        - listitem [ref=f3e345]: Open the cart
+                    - cell "The product appears in the cart with the chosen quantity, and the cart badge count increases." [ref=f3e346]
+                  - row [ref=f3e347]:
+                    - cell [ref=f3e348]:
+                      - strong [ref=f3e349]: TC02
+                    - cell "Search filters products" [ref=f3e350]
+                    - cell [ref=f3e351]:
+                      - list [ref=f3e352]:
+                        - listitem [ref=f3e353]: Type "mouse" in the search box
+                    - cell "Only products matching the search term are shown, and the result count updates." [ref=f3e354]
+                  - row [ref=f3e355]:
+                    - cell [ref=f3e356]:
+                      - strong [ref=f3e357]: TC02b
+                    - cell "Category filter" [ref=f3e358]
+                    - cell [ref=f3e359]:
+                      - list [ref=f3e360]:
+                        - listitem [ref=f3e361]: Click the "Fashion" category button
+                    - cell "Only Fashion products are listed and the count reflects the category." [ref=f3e362]
+                  - row [ref=f3e363]:
+                    - cell [ref=f3e364]:
+                      - strong [ref=f3e365]: TC02c
+                    - cell "Sort by price" [ref=f3e366]
+                    - cell [ref=f3e367]:
+                      - list [ref=f3e368]:
+                        - listitem [ref=f3e369]: "Choose \"Price: Low to High\" in the sort dropdown"
+                    - cell "Products are re-ordered from cheapest to most expensive." [ref=f3e370]
+                  - row [ref=f3e371]:
+                    - cell [ref=f3e372]:
+                      - strong [ref=f3e373]: TC02d
+                    - cell "Pagination" [ref=f3e374]
+                    - cell [ref=f3e375]:
+                      - list [ref=f3e376]:
+                        - listitem [ref=f3e377]: Click page 2 in the pagination
+                    - cell "The next set of products is shown; Previous becomes enabled." [ref=f3e378]
+                  - row [ref=f3e379]:
+                    - cell [ref=f3e380]:
+                      - strong [ref=f3e381]: TC02e
+                    - cell "Open a product page" [ref=f3e382]
+                    - cell [ref=f3e383]:
+                      - list [ref=f3e384]:
+                        - listitem [ref=f3e385]: Click a product name or image
+                    - cell "The product detail page opens with description, rating, price, and Add to Cart." [ref=f3e386]
+                  - row [ref=f3e387]:
+                    - cell [ref=f3e388]:
+                      - strong [ref=f3e389]: TC03
+                    - cell "Remove an item from the cart" [ref=f3e390]
+                    - cell [ref=f3e391]:
+                      - list [ref=f3e392]:
+                        - listitem [ref=f3e393]: Add a product
+                        - listitem [ref=f3e394]: Open the cart
+                        - listitem [ref=f3e395]: Click Remove
+                    - cell "The item is removed and the cart total updates." [ref=f3e396]
+                  - row [ref=f3e397]:
+                    - cell [ref=f3e398]:
+                      - strong [ref=f3e399]: TC04
+                    - cell "Proceed to Buy disabled when cart empty" [ref=f3e400]
+                    - cell [ref=f3e401]:
+                      - list [ref=f3e402]:
+                        - listitem [ref=f3e403]: Open the cart with no items
+                    - cell "The Proceed to Buy button is disabled." [ref=f3e404]
+                  - row [ref=f3e405]:
+                    - cell [ref=f3e406]:
+                      - strong [ref=f3e407]: TC05
+                    - cell "Full checkout happy path" [ref=f3e408]
+                    - cell [ref=f3e409]:
+                      - list [ref=f3e410]:
+                        - listitem [ref=f3e411]: Add a product
+                        - listitem [ref=f3e412]: Proceed to Buy
+                        - listitem [ref=f3e413]: Fill the address, save
+                        - listitem [ref=f3e414]: Fill payment, Buy Now
+                    - cell "An \"Order Successful!\" confirmation with the purchased items is shown." [ref=f3e415]
+                  - row [ref=f3e416]:
+                    - cell [ref=f3e417]:
+                      - strong [ref=f3e418]: TC06
+                    - cell "Cart total is correct" [ref=f3e419]
+                    - cell [ref=f3e420]:
+                      - list [ref=f3e421]:
+                        - listitem [ref=f3e422]: Add product A (qty 2) and product B (qty 1)
+                    - cell "The cart total equals A.price×2 + B.price." [ref=f3e423]
+                  - row [ref=f3e424]:
+                    - cell [ref=f3e425]:
+                      - strong [ref=f3e426]: TC07
+                    - cell "Quantity minimum" [ref=f3e427]
+                    - cell [ref=f3e428]:
+                      - list [ref=f3e429]:
+                        - listitem [ref=f3e430]: Try to set a product quantity below 1
+                    - cell "The quantity input enforces a minimum of 1." [ref=f3e431]
+                  - row [ref=f3e432]:
+                    - cell [ref=f3e433]:
+                      - strong [ref=f3e434]: TC08
+                    - cell "Payment validation" [ref=f3e435]
+                    - cell [ref=f3e436]:
+                      - list [ref=f3e437]:
+                        - listitem [ref=f3e438]: Reach payment
+                        - listitem [ref=f3e439]: Submit with empty/invalid card details
+                    - cell "Validation errors are shown and the order is not completed." [ref=f3e440]
+    - contentinfo [ref=f3e306]:
+      - generic [ref=f3e307]:
+        - navigation "Legal and contact" [ref=f3e308]:
+          - list [ref=f3e309]:
+            - listitem [ref=f3e310]:
+              - link "Home" [ref=f3e311] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f3e312]:
+              - link "About" [ref=f3e313] [cursor=pointer]:
+                - /url: /AboutPage
+            - listitem [ref=f3e314]:
+              - link "Contact" [ref=f3e315] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=f3e316]:
+              - link "Privacy Policy" [ref=f3e317] [cursor=pointer]:
+                - /url: /privacy-policy
+            - listitem [ref=f3e318]:
+              - link "Terms of Use" [ref=f3e319] [cursor=pointer]:
+                - /url: /terms
+        - paragraph [ref=f3e320]: © 2026 QA Practice · A free learning platform for QA and automation engineers 🚀
+  - dialog [active] [ref=f3e464]:
+    - generic [ref=f3e465]:
+      - generic [ref=f3e466]: Your Cart
+      - button "Close" [ref=f3e467] [cursor=pointer]
+    - generic [ref=f3e468]:
+      - paragraph [ref=f3e477]: Your cart is empty.
+      - generic [ref=f3e473]: "Total: $0.00"
+      - generic [ref=f3e474]:
+        - button "Proceed to Buy" [disabled]

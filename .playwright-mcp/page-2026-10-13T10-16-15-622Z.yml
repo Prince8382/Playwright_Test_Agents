@@ -1,0 +1,191 @@
+- generic [ref=f3e2]:
+  - navigation [ref=f3e119]:
+    - generic [ref=f3e120]:
+      - link "QA Practice" [ref=f3e121] [cursor=pointer]:
+        - /url: /
+        - text: QA
+        - generic [ref=f3e122]: Practice
+      - generic [ref=f3e124]:
+        - link "Practice Sites" [ref=f3e125] [cursor=pointer]:
+          - /url: /practice-page-selection
+        - link "Interview Prep" [ref=f3e126] [cursor=pointer]:
+          - /url: /interview
+        - link "About" [ref=f3e127] [cursor=pointer]:
+          - /url: /AboutPage
+        - link "Contact" [ref=f3e128] [cursor=pointer]:
+          - /url: /contact
+  - generic [ref=f3e129]:
+    - heading "E-commerce Automation Practice" [level=1] [ref=f3e130]
+    - paragraph [ref=f3e131]: Automate a realistic storefront — search products, manage the cart, enter an address, and place an order — with Selenium, Cypress, or Playwright.
+  - generic [ref=f3e132]:
+    - navigation [ref=f3e133]:
+      - generic [ref=f3e134]:
+        - link "🛍️ QA Practice Store" [ref=f3e135] [cursor=pointer]:
+          - /url: /
+        - searchbox "Search" [ref=f3e139]
+        - button [ref=f3e141] [cursor=pointer]
+    - generic [ref=f3e144]:
+      - generic [ref=f3e145]:
+        - button "All" [ref=f3e146] [cursor=pointer]
+        - button "Electronics" [ref=f3e147] [cursor=pointer]
+        - button "Fashion" [ref=f3e148] [cursor=pointer]
+        - button "Beauty" [ref=f3e149] [cursor=pointer]
+        - button "Beverages" [ref=f3e150] [cursor=pointer]
+      - generic [ref=f3e151]:
+        - generic [ref=f3e152]: 20 products
+        - generic [ref=f3e153]:
+          - generic [ref=f3e154]: Sort by
+          - combobox "Sort by" [ref=f3e155]:
+            - option "Featured"
+            - 'option "Price: Low to High" [selected]'
+            - 'option "Price: High to Low"'
+            - option "Avg. Customer Rating"
+      - generic [ref=f3e156]:
+        - generic [ref=f3e694]:
+          - img "Coca Cola 250ml" [ref=f3e695] [cursor=pointer]
+          - generic [ref=f3e696]:
+            - generic [ref=f3e697] [cursor=pointer]: Coca Cola 250ml
+            - generic [ref=f3e699]:
+              - generic [ref=f3e700]: ★★★★☆
+              - generic [ref=f3e701]: 4.2 (5,321)
+            - generic [ref=f3e702]: $1
+            - generic [ref=f3e703]:
+              - generic [ref=f3e704]:
+                - generic [ref=f3e705]: "Qty:"
+                - spinbutton "Qty:" [ref=f3e706]: "1"
+              - button "Add to Cart" [ref=f3e707] [cursor=pointer]
+        - generic [ref=f3e709]:
+          - img "Mango Drink" [ref=f3e710] [cursor=pointer]
+          - generic [ref=f3e711]:
+            - generic [ref=f3e712] [cursor=pointer]: Mango Drink
+            - generic [ref=f3e714]:
+              - generic [ref=f3e715]: ★★★★☆
+              - generic [ref=f3e716]: 4.0 (1,892)
+            - generic [ref=f3e717]: $2
+            - generic [ref=f3e718]:
+              - generic [ref=f3e719]:
+                - generic [ref=f3e720]: "Qty:"
+                - spinbutton "Qty:" [ref=f3e721]: "1"
+              - button "Add to Cart" [ref=f3e722] [cursor=pointer]
+        - generic [ref=f3e724]:
+          - img "Rosemary Oil" [ref=f3e725] [cursor=pointer]
+          - generic [ref=f3e726]:
+            - generic [ref=f3e727] [cursor=pointer]: Rosemary Oil
+            - generic [ref=f3e729]:
+              - generic [ref=f3e730]: ★★★★½
+              - generic [ref=f3e731]: 4.5 (1,103)
+            - generic [ref=f3e732]: $15
+            - generic [ref=f3e733]:
+              - generic [ref=f3e734]:
+                - generic [ref=f3e735]: "Qty:"
+                - spinbutton "Qty:" [ref=f3e736]: "1"
+              - button "Add to Cart" [ref=f3e737] [cursor=pointer]
+        - generic [ref=f3e739]:
+          - img "Premium Shampoo" [ref=f3e740] [cursor=pointer]
+          - generic [ref=f3e741]:
+            - generic [ref=f3e742] [cursor=pointer]: Premium Shampoo
+            - generic [ref=f3e744]:
+              - generic [ref=f3e745]: ★★★★☆
+              - generic [ref=f3e746]: 4.2 (934)
+            - generic [ref=f3e747]: $20
+            - generic [ref=f3e748]:
+              - generic [ref=f3e749]:
+                - generic [ref=f3e750]: "Qty:"
+                - spinbutton "Qty:" [ref=f3e751]: "1"
+              - button "Add to Cart" [ref=f3e752] [cursor=pointer]
+        - generic [ref=f3e754]:
+          - img "Wireless Mouse" [ref=f3e755] [cursor=pointer]
+          - generic [ref=f3e756]:
+            - generic [ref=f3e757] [cursor=pointer]: Wireless Mouse
+            - generic [ref=f3e759]:
+              - generic [ref=f3e760]: ★★★★☆
+              - generic [ref=f3e761]: 4.3 (842)
+            - generic [ref=f3e762]: $25
+            - generic [ref=f3e763]:
+              - generic [ref=f3e764]:
+                - generic [ref=f3e765]: "Qty:"
+                - spinbutton "Qty:" [ref=f3e766]: "1"
+              - button "Add to Cart" [ref=f3e767] [cursor=pointer]
+        - generic [ref=f3e769]:
+          - img "Beauty Product" [ref=f3e770] [cursor=pointer]
+          - generic [ref=f3e771]:
+            - generic [ref=f3e772] [cursor=pointer]: Beauty Product
+            - generic [ref=f3e774]:
+              - generic [ref=f3e775]: ★★★★☆
+              - generic [ref=f3e776]: 4.1 (421)
+            - generic [ref=f3e777]: $30
+            - generic [ref=f3e778]:
+              - generic [ref=f3e779]:
+                - generic [ref=f3e780]: "Qty:"
+                - spinbutton "Qty:" [ref=f3e781]: "1"
+              - button "Add to Cart" [ref=f3e782] [cursor=pointer]
+        - generic [ref=f3e784]:
+          - img "Premium Ladies Purse" [ref=f3e785] [cursor=pointer]
+          - generic [ref=f3e786]:
+            - generic [ref=f3e787] [cursor=pointer]: Premium Ladies Purse
+            - generic [ref=f3e789]:
+              - generic [ref=f3e790]: ★★★★☆
+              - generic [ref=f3e791]: 4.4 (502)
+            - generic [ref=f3e792]: $50
+            - generic [ref=f3e793]:
+              - generic [ref=f3e794]:
+                - generic [ref=f3e795]: "Qty:"
+                - spinbutton "Qty:" [ref=f3e796]: "1"
+              - button "Add to Cart" [ref=f3e797] [cursor=pointer]
+        - generic [ref=f3e799]:
+          - img "Ladies Shoes" [ref=f3e800] [cursor=pointer]
+          - generic [ref=f3e801]:
+            - generic [ref=f3e802] [cursor=pointer]: Ladies Shoes
+            - generic [ref=f3e804]:
+              - generic [ref=f3e805]: ★★★★☆
+              - generic [ref=f3e806]: 4.3 (647)
+            - generic [ref=f3e807]: $60
+            - generic [ref=f3e808]:
+              - generic [ref=f3e809]:
+                - generic [ref=f3e810]: "Qty:"
+                - spinbutton "Qty:" [ref=f3e811]: "1"
+              - button "Add to Cart" [ref=f3e812] [cursor=pointer]
+      - navigation "Product pages" [ref=f3e486]:
+        - list [ref=f3e487]:
+          - listitem [ref=f3e488]:
+            - button "Previous" [disabled]
+          - listitem [ref=f3e489]:
+            - button "1" [ref=f3e490] [cursor=pointer]
+          - listitem [ref=f3e491]:
+            - button "2" [ref=f3e492] [cursor=pointer]
+          - listitem [ref=f3e493]:
+            - button "3" [ref=f3e494] [cursor=pointer]
+          - listitem [ref=f3e495]:
+            - button "Next" [ref=f3e496] [cursor=pointer]
+      - link "Back To Home Page ➡️" [ref=f3e289] [cursor=pointer]:
+        - /url: /
+      - generic [ref=f3e290]:
+        - generic [ref=f3e291]:
+          - heading "How to Automate This E-commerce Page" [level=2] [ref=f3e292]
+          - paragraph [ref=f3e293]: A full shopping journey — search a product, set a quantity, add to cart, review the cart, enter a shipping address, pay, and see the order confirmation. It is ideal for practising dynamic, per-product locators, an off-canvas cart, and a multi-step checkout.
+        - button "📝 Working Automation Example" [ref=f3e295] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f3e297]: ▼
+        - button "🎯 Locator Cheat Sheet" [ref=f3e299] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f3e301]: ▼
+        - button "✅ Test Cases & Expected Behaviors" [ref=f3e303] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f3e305]: ▼
+  - contentinfo [ref=f3e306]:
+    - generic [ref=f3e307]:
+      - navigation "Legal and contact" [ref=f3e308]:
+        - list [ref=f3e309]:
+          - listitem [ref=f3e310]:
+            - link "Home" [ref=f3e311] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=f3e312]:
+            - link "About" [ref=f3e313] [cursor=pointer]:
+              - /url: /AboutPage
+          - listitem [ref=f3e314]:
+            - link "Contact" [ref=f3e315] [cursor=pointer]:
+              - /url: /contact
+          - listitem [ref=f3e316]:
+            - link "Privacy Policy" [ref=f3e317] [cursor=pointer]:
+              - /url: /privacy-policy
+          - listitem [ref=f3e318]:
+            - link "Terms of Use" [ref=f3e319] [cursor=pointer]:
+              - /url: /terms
+      - paragraph [ref=f3e320]: © 2026 QA Practice · A free learning platform for QA and automation engineers 🚀

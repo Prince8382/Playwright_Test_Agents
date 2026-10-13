@@ -1,0 +1,5 @@
+[    1087ms] [WARNING] Unrecognized feature: 'run-ad-auction'. @ https://www.qapractice.com/:1
+[    1406ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://googleads.g.doubleclick.net/pagead/html/r20260901/r20190131/zrt_lookup.html:0
+[    1406ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://googleads.g.doubleclick.net/pagead/html/r20260901/r20190131/zrt_lookup.html:0
+[    5104ms] [WARNING] Unrecognized feature: 'run-ad-auction'. @ https://www.qapractice.com/practice-page-selection:1
+[    5523ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://googleads.g.doubleclick.net/pagead/html/r20260901/r20190131/zrt_lookup.html:0

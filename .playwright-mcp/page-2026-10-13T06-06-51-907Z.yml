@@ -1,0 +1,323 @@
+- generic [ref=f3e1]:
+  - generic [ref=f3e2]:
+    - navigation [ref=f3e119]:
+      - generic [ref=f3e120]:
+        - link "QA Practice" [ref=f3e121] [cursor=pointer]:
+          - /url: /
+          - text: QA
+          - generic [ref=f3e122]: Practice
+        - generic [ref=f3e124]:
+          - link "Practice Sites" [ref=f3e125] [cursor=pointer]:
+            - /url: /practice-page-selection
+          - link "Interview Prep" [ref=f3e126] [cursor=pointer]:
+            - /url: /interview
+          - link "About" [ref=f3e127] [cursor=pointer]:
+            - /url: /AboutPage
+          - link "Contact" [ref=f3e128] [cursor=pointer]:
+            - /url: /contact
+    - generic [ref=f3e129]:
+      - heading "E-commerce Automation Practice" [level=1] [ref=f3e130]
+      - paragraph [ref=f3e131]: Automate a realistic storefront — search products, manage the cart, enter an address, and place an order — with Selenium, Cypress, or Playwright.
+    - generic [ref=f3e132]:
+      - navigation [ref=f3e133]:
+        - generic [ref=f3e134]:
+          - link "🛍️ QA Practice Store" [ref=f3e135] [cursor=pointer]:
+            - /url: /
+          - searchbox "Search" [ref=f3e139]
+          - button "3" [ref=f3e623] [cursor=pointer]
+      - generic [ref=f3e144]:
+        - generic [ref=f3e478]:
+          - button "All" [ref=f3e479] [cursor=pointer]
+          - button "Electronics" [ref=f3e480] [cursor=pointer]
+          - button "Fashion" [ref=f3e481] [cursor=pointer]
+          - button "Beauty" [ref=f3e482] [cursor=pointer]
+          - button "Beverages" [ref=f3e483] [cursor=pointer]
+        - generic [ref=f3e484]:
+          - generic [ref=f3e485]: 20 products
+          - generic [ref=f3e486]:
+            - generic [ref=f3e487]: Sort by
+            - combobox "Sort by" [ref=f3e488]:
+              - option "Featured" [selected]
+              - 'option "Price: Low to High"'
+              - 'option "Price: High to Low"'
+              - option "Avg. Customer Rating"
+        - generic [ref=f3e489]:
+          - generic [ref=f3e491]:
+            - img "Laptop Pro" [ref=f3e492] [cursor=pointer]
+            - generic [ref=f3e493]:
+              - generic [ref=f3e494] [cursor=pointer]: Laptop Pro
+              - generic [ref=f3e496]:
+                - generic [ref=f3e497]: ★★★★½
+                - generic [ref=f3e498]: 4.6 (1,284)
+              - generic [ref=f3e499]: $1200
+              - generic [ref=f3e500]:
+                - generic [ref=f3e501]:
+                  - generic [ref=f3e502]: "Qty:"
+                  - spinbutton "Qty:" [ref=f3e503]: "1"
+                - button "Add to Cart" [ref=f3e504] [cursor=pointer]
+          - generic [ref=f3e506]:
+            - img "Wireless Mouse" [ref=f3e507] [cursor=pointer]
+            - generic [ref=f3e508]:
+              - generic [ref=f3e509] [cursor=pointer]: Wireless Mouse
+              - generic [ref=f3e511]:
+                - generic [ref=f3e512]: ★★★★☆
+                - generic [ref=f3e513]: 4.3 (842)
+              - generic [ref=f3e514]: $25
+              - generic [ref=f3e515]:
+                - generic [ref=f3e516]:
+                  - generic [ref=f3e517]: "Qty:"
+                  - spinbutton "Qty:" [ref=f3e518]: "2"
+                - button "Add to Cart" [ref=f3e519] [cursor=pointer]
+          - generic [ref=f3e521]:
+            - img "Keyboard RGB" [ref=f3e522] [cursor=pointer]
+            - generic [ref=f3e523]:
+              - generic [ref=f3e524] [cursor=pointer]: Keyboard RGB
+              - generic [ref=f3e526]:
+                - generic [ref=f3e527]: ★★★★½
+                - generic [ref=f3e528]: 4.5 (973)
+              - generic [ref=f3e529]: $80
+              - generic [ref=f3e530]:
+                - generic [ref=f3e531]:
+                  - generic [ref=f3e532]: "Qty:"
+                  - spinbutton "Qty:" [ref=f3e533]: "1"
+                - button "Add to Cart" [ref=f3e534] [cursor=pointer]
+          - generic [ref=f3e536]:
+            - img "Headphones Noise Cancelling" [ref=f3e537] [cursor=pointer]
+            - generic [ref=f3e538]:
+              - generic [ref=f3e539] [cursor=pointer]: Headphones Noise Cancelling
+              - generic [ref=f3e541]:
+                - generic [ref=f3e542]: ★★★★½
+                - generic [ref=f3e543]: 4.7 (2,109)
+              - generic [ref=f3e544]: $150
+              - generic [ref=f3e545]:
+                - generic [ref=f3e546]:
+                  - generic [ref=f3e547]: "Qty:"
+                  - spinbutton "Qty:" [ref=f3e548]: "1"
+                - button "Add to Cart" [ref=f3e549] [cursor=pointer]
+          - generic [ref=f3e551]:
+            - img "External SSD 1TB" [ref=f3e552] [cursor=pointer]
+            - generic [ref=f3e553]:
+              - generic [ref=f3e554] [cursor=pointer]: External SSD 1TB
+              - generic [ref=f3e556]:
+                - generic [ref=f3e557]: ★★★★½
+                - generic [ref=f3e558]: 4.8 (1,550)
+              - generic [ref=f3e559]: $180
+              - generic [ref=f3e560]:
+                - generic [ref=f3e561]:
+                  - generic [ref=f3e562]: "Qty:"
+                  - spinbutton "Qty:" [ref=f3e563]: "1"
+                - button "Add to Cart" [ref=f3e564] [cursor=pointer]
+          - generic [ref=f3e566]:
+            - img "Monitor 4K" [ref=f3e567] [cursor=pointer]
+            - generic [ref=f3e568]:
+              - generic [ref=f3e569] [cursor=pointer]: Monitor 4K
+              - generic [ref=f3e571]:
+                - generic [ref=f3e572]: ★★★★☆
+                - generic [ref=f3e573]: 4.4 (688)
+              - generic [ref=f3e574]: $350
+              - generic [ref=f3e575]:
+                - generic [ref=f3e576]:
+                  - generic [ref=f3e577]: "Qty:"
+                  - spinbutton "Qty:" [ref=f3e578]: "1"
+                - button "Add to Cart" [ref=f3e579] [cursor=pointer]
+          - generic [ref=f3e581]:
+            - img "Coca Cola 250ml" [ref=f3e582] [cursor=pointer]
+            - generic [ref=f3e583]:
+              - generic [ref=f3e584] [cursor=pointer]: Coca Cola 250ml
+              - generic [ref=f3e586]:
+                - generic [ref=f3e587]: ★★★★☆
+                - generic [ref=f3e588]: 4.2 (5,321)
+              - generic [ref=f3e589]: $1
+              - generic [ref=f3e590]:
+                - generic [ref=f3e591]:
+                  - generic [ref=f3e592]: "Qty:"
+                  - spinbutton "Qty:" [ref=f3e593]: "1"
+                - button "Add to Cart" [ref=f3e594] [cursor=pointer]
+          - generic [ref=f3e596]:
+            - img "Mango Drink" [ref=f3e597] [cursor=pointer]
+            - generic [ref=f3e598]:
+              - generic [ref=f3e599] [cursor=pointer]: Mango Drink
+              - generic [ref=f3e601]:
+                - generic [ref=f3e602]: ★★★★☆
+                - generic [ref=f3e603]: 4.0 (1,892)
+              - generic [ref=f3e604]: $2
+              - generic [ref=f3e605]:
+                - generic [ref=f3e606]:
+                  - generic [ref=f3e607]: "Qty:"
+                  - spinbutton "Qty:" [ref=f3e608]: "1"
+                - button "Add to Cart" [ref=f3e609] [cursor=pointer]
+        - navigation "Product pages" [ref=f3e610]:
+          - list [ref=f3e611]:
+            - listitem [ref=f3e612]:
+              - button "Previous" [disabled]
+            - listitem [ref=f3e613]:
+              - button "1" [ref=f3e614] [cursor=pointer]
+            - listitem [ref=f3e615]:
+              - button "2" [ref=f3e616] [cursor=pointer]
+            - listitem [ref=f3e617]:
+              - button "3" [ref=f3e618] [cursor=pointer]
+            - listitem [ref=f3e619]:
+              - button "Next" [ref=f3e620] [cursor=pointer]
+        - link "Back To Home Page ➡️" [ref=f3e289] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f3e290]:
+          - generic [ref=f3e291]:
+            - heading "How to Automate This E-commerce Page" [level=2] [ref=f3e292]
+            - paragraph [ref=f3e293]: A full shopping journey — search a product, set a quantity, add to cart, review the cart, enter a shipping address, pay, and see the order confirmation. It is ideal for practising dynamic, per-product locators, an off-canvas cart, and a multi-step checkout.
+          - button "📝 Working Automation Example" [ref=f3e295] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f3e297]: ▼
+          - button "🎯 Locator Cheat Sheet" [ref=f3e299] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f3e301]: ▼
+          - generic [ref=f3e302]:
+            - button "✅ Test Cases & Expected Behaviors" [expanded] [ref=f3e303] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f3e305]: ▼
+            - generic [ref=f3e322]:
+              - generic [ref=f3e323]:
+                - paragraph [ref=f3e325]: Use these as a checklist to build your automation suite. Download them as a Markdown file to keep alongside your test project.
+                - button "⬇️ Download (.md)" [ref=f3e327] [cursor=pointer]
+              - table [ref=f3e329]:
+                - rowgroup [ref=f3e330]:
+                  - row [ref=f3e331]:
+                    - columnheader "ID" [ref=f3e332]
+                    - columnheader "Scenario" [ref=f3e333]
+                    - columnheader "Steps" [ref=f3e334]
+                    - columnheader "Expected Result" [ref=f3e335]
+                - rowgroup [ref=f3e336]:
+                  - row [ref=f3e337]:
+                    - cell [ref=f3e338]:
+                      - strong [ref=f3e339]: TC01
+                    - cell "Add a product to the cart" [ref=f3e340]
+                    - cell [ref=f3e341]:
+                      - list [ref=f3e342]:
+                        - listitem [ref=f3e343]: Set a quantity for a product
+                        - listitem [ref=f3e344]: Click Add to Cart
+                        - listitem [ref=f3e345]: Open the cart
+                    - cell "The product appears in the cart with the chosen quantity, and the cart badge count increases." [ref=f3e346]
+                  - row [ref=f3e347]:
+                    - cell [ref=f3e348]:
+                      - strong [ref=f3e349]: TC02
+                    - cell "Search filters products" [ref=f3e350]
+                    - cell [ref=f3e351]:
+                      - list [ref=f3e352]:
+                        - listitem [ref=f3e353]: Type "mouse" in the search box
+                    - cell "Only products matching the search term are shown, and the result count updates." [ref=f3e354]
+                  - row [ref=f3e355]:
+                    - cell [ref=f3e356]:
+                      - strong [ref=f3e357]: TC02b
+                    - cell "Category filter" [ref=f3e358]
+                    - cell [ref=f3e359]:
+                      - list [ref=f3e360]:
+                        - listitem [ref=f3e361]: Click the "Fashion" category button
+                    - cell "Only Fashion products are listed and the count reflects the category." [ref=f3e362]
+                  - row [ref=f3e363]:
+                    - cell [ref=f3e364]:
+                      - strong [ref=f3e365]: TC02c
+                    - cell "Sort by price" [ref=f3e366]
+                    - cell [ref=f3e367]:
+                      - list [ref=f3e368]:
+                        - listitem [ref=f3e369]: "Choose \"Price: Low to High\" in the sort dropdown"
+                    - cell "Products are re-ordered from cheapest to most expensive." [ref=f3e370]
+                  - row [ref=f3e371]:
+                    - cell [ref=f3e372]:
+                      - strong [ref=f3e373]: TC02d
+                    - cell "Pagination" [ref=f3e374]
+                    - cell [ref=f3e375]:
+                      - list [ref=f3e376]:
+                        - listitem [ref=f3e377]: Click page 2 in the pagination
+                    - cell "The next set of products is shown; Previous becomes enabled." [ref=f3e378]
+                  - row [ref=f3e379]:
+                    - cell [ref=f3e380]:
+                      - strong [ref=f3e381]: TC02e
+                    - cell "Open a product page" [ref=f3e382]
+                    - cell [ref=f3e383]:
+                      - list [ref=f3e384]:
+                        - listitem [ref=f3e385]: Click a product name or image
+                    - cell "The product detail page opens with description, rating, price, and Add to Cart." [ref=f3e386]
+                  - row [ref=f3e387]:
+                    - cell [ref=f3e388]:
+                      - strong [ref=f3e389]: TC03
+                    - cell "Remove an item from the cart" [ref=f3e390]
+                    - cell [ref=f3e391]:
+                      - list [ref=f3e392]:
+                        - listitem [ref=f3e393]: Add a product
+                        - listitem [ref=f3e394]: Open the cart
+                        - listitem [ref=f3e395]: Click Remove
+                    - cell "The item is removed and the cart total updates." [ref=f3e396]
+                  - row [ref=f3e397]:
+                    - cell [ref=f3e398]:
+                      - strong [ref=f3e399]: TC04
+                    - cell "Proceed to Buy disabled when cart empty" [ref=f3e400]
+                    - cell [ref=f3e401]:
+                      - list [ref=f3e402]:
+                        - listitem [ref=f3e403]: Open the cart with no items
+                    - cell "The Proceed to Buy button is disabled." [ref=f3e404]
+                  - row [ref=f3e405]:
+                    - cell [ref=f3e406]:
+                      - strong [ref=f3e407]: TC05
+                    - cell "Full checkout happy path" [ref=f3e408]
+                    - cell [ref=f3e409]:
+                      - list [ref=f3e410]:
+                        - listitem [ref=f3e411]: Add a product
+                        - listitem [ref=f3e412]: Proceed to Buy
+                        - listitem [ref=f3e413]: Fill the address, save
+                        - listitem [ref=f3e414]: Fill payment, Buy Now
+                    - cell "An \"Order Successful!\" confirmation with the purchased items is shown." [ref=f3e415]
+                  - row [ref=f3e416]:
+                    - cell [ref=f3e417]:
+                      - strong [ref=f3e418]: TC06
+                    - cell "Cart total is correct" [ref=f3e419]
+                    - cell [ref=f3e420]:
+                      - list [ref=f3e421]:
+                        - listitem [ref=f3e422]: Add product A (qty 2) and product B (qty 1)
+                    - cell "The cart total equals A.price×2 + B.price." [ref=f3e423]
+                  - row [ref=f3e424]:
+                    - cell [ref=f3e425]:
+                      - strong [ref=f3e426]: TC07
+                    - cell "Quantity minimum" [ref=f3e427]
+                    - cell [ref=f3e428]:
+                      - list [ref=f3e429]:
+                        - listitem [ref=f3e430]: Try to set a product quantity below 1
+                    - cell "The quantity input enforces a minimum of 1." [ref=f3e431]
+                  - row [ref=f3e432]:
+                    - cell [ref=f3e433]:
+                      - strong [ref=f3e434]: TC08
+                    - cell "Payment validation" [ref=f3e435]
+                    - cell [ref=f3e436]:
+                      - list [ref=f3e437]:
+                        - listitem [ref=f3e438]: Reach payment
+                        - listitem [ref=f3e439]: Submit with empty/invalid card details
+                    - cell "Validation errors are shown and the order is not completed." [ref=f3e440]
+    - contentinfo [ref=f3e306]:
+      - generic [ref=f3e307]:
+        - navigation "Legal and contact" [ref=f3e308]:
+          - list [ref=f3e309]:
+            - listitem [ref=f3e310]:
+              - link "Home" [ref=f3e311] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f3e312]:
+              - link "About" [ref=f3e313] [cursor=pointer]:
+                - /url: /AboutPage
+            - listitem [ref=f3e314]:
+              - link "Contact" [ref=f3e315] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=f3e316]:
+              - link "Privacy Policy" [ref=f3e317] [cursor=pointer]:
+                - /url: /privacy-policy
+            - listitem [ref=f3e318]:
+              - link "Terms of Use" [ref=f3e319] [cursor=pointer]:
+                - /url: /terms
+        - paragraph [ref=f3e320]: © 2026 QA Practice · A free learning platform for QA and automation engineers 🚀
+  - dialog [active] [ref=f3e625]:
+    - generic [ref=f3e626]:
+      - generic [ref=f3e627]: Your Cart
+      - button "Close" [ref=f3e628] [cursor=pointer]
+    - generic [ref=f3e629]:
+      - generic [ref=f3e630]:
+        - generic [ref=f3e631]:
+          - generic [ref=f3e632]: Wireless Mouse - $25 x 2
+          - button "Remove" [ref=f3e633] [cursor=pointer]
+        - generic [ref=f3e634]:
+          - generic [ref=f3e635]: Keyboard RGB - $80 x 1
+          - button "Remove" [ref=f3e636] [cursor=pointer]
+      - generic [ref=f3e637]: "Total: $130.00"
+      - button "Proceed to Buy" [ref=f3e639] [cursor=pointer]
